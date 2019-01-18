@@ -26,7 +26,7 @@ def start_game():
         print("YOU DID IT!! It only took you {} tries".format(number_of_attempts))
         
         while True:
-            play_again = input("Would you like to play again? (y / n): ")
+            play_again = input("Would you like to play again? (y/n): ")
             if play_again.lower()=="y":
                 start_game()
             elif play_again.lower()=="n":
